@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS/JQ</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    
+
+    <div class="container">
+      <!-- variable -->
+      <h2 class="text-danger">click the button to calculate the data</h2>
+      <button class="btn btn-dark" onclick="calculation()">Calculation</button>
+      <h3 id="value">value</h3>
+      <hr>
+      
+      
+      <!-- show/hide -->
+      <h2 class="text-danger">click the button to show/hide the element</h2>
+      <button class="btn btn-dark" ondblclick="textShow()">Show</button>
+      <button class="btn btn-dark" ondblclick="textHide()">Hide</button>
+      <h3 id="text">Lorem ipsum dolor sit.</h3>
+      <hr>
+
+      
+      <!-- color change -->
+      <h2 class="text-danger">click the button change the color</h2>
+      <button class="btn btn-dark" onmousemove="colorChange()">change color</button>
+      <h3 id="c_c">Lorem ipsum dolor sit.</h3>
+      <hr>
+
+      <!-- bulb on/off -->
+      <h2 class="text-danger">click the button to on/off the bulb</h2>
+      <button class="btn btn-dark" onclick="bulbOn()">Bulb On</button>
+      <button class="btn btn-dark" onclick="bulbOff()">Bulb Off</button>
+
+      <img id="bulb" src="image/off.gif" alt="">
+      <hr>
+
+
+      <!-- show date -->
+      <h2 class="text-danger">click the button show the date</h2>
+      <button class="btn btn-dark" onclick="showDate()">show date</button>
+      <h3 id="s_d">show date</h3>
+
+
+      
+
+      <hr>
+      <!-- text change -->
+      <h2 class="text-danger">click the button to change the text</h2>
+
+      <button class="btn btn-dark" onclick="textChange()">Text Change</button>
+
+      <h3 id="t_c">Lorem, ipsum dolor.</h3>
+
+    </div>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
